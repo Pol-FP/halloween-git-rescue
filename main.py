@@ -7,8 +7,8 @@ def init_system():
     print("[SISTEMA]: Estat inicial: Estable.")
 
 def emergency_lockdown():
-    print("[SEGURETAT]: Activant protocol de tancament d'emergència...")
-    print("[SEGURETAT]: Totes les sortides de l'edifici han estat segellades.")
+    print("[NIGHTMARE]: Activant protocol de tancament d'emergència...")
+    print("[NIGHTMARE]: Totes les sortides de l'edifici han estat segellades.")
 
 def check_temperature_anomalies():
     print("[SENSORS]: Verificant temperatura ambient...")
