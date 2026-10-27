@@ -1,13 +1,13 @@
 
 ### Acció 3.6: Creació de les branques del Més Enllà
-Es creen dues branques independents a partir de `main` per desenvolupar les dues versions del sistema de seguretat sense modificar directament la branca principal. Primer, es defineix una línia comuna que servirà de punt de partida.
+Es creen dues branques independents a partir de `master` per desenvolupar les dues versions del sistema de seguretat sense modificar directament la branca principal. Primer, es defineix una línia comuna que servirà de punt de partida.
 ```bash
 git branch feature-nightmare
 git branch feature-sanctuary
 git branch
 ```
 
-**Justificació:** Les dues branques es creen a partir de `main` perquè comparteixin el mateix punt d'origen i puguin evolucionar de manera independent. Així, es poden comparar les dues versions i provocar un conflicte en fusionar-les.
+**Justificació:** Les dues branques es creen a partir de `master` perquè comparteixin el mateix punt d'origen i puguin evolucionar de manera independent. Així, es poden comparar les dues versions i provocar un conflicte en fusionar-les.
 
 ### Acció 3.7: Implementació de la dimensió fosca (Commit)
 Es canvia a la branca `feature-nightmare` i es modifica la línia del protocol de seguretat del fitxer `main.py` per activar la lògica de la dimensió fosca.
