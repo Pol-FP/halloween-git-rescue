@@ -62,5 +62,5 @@ Finalment, es registra la resolució del conflicte i es comprova l'historial com
 git add main.py
 git commit -m "Merge: Resolve security protocol conflict in favor of sanctuary"
 ```
-
-![Bloc 2: Branques i resolució del conflicte](img/image-1.png)
+![Bloc 2: Branques i resolució del conflicte part 1](img/image-1.1.png)
+![Bloc 2: Branques i resolució del conflicte part 2](img/image-1.png)
