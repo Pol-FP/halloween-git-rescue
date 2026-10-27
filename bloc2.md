@@ -43,15 +43,18 @@ nano main.py
 El conflicte mostra les dues versions incompatibles de la mateixa línia:
 ```python
 <<<<<<< HEAD
-protocol_seguretat = "NIGHTMARE"
+    print("[NIGHTMARE]: Activant protocol de tancament d'emergència...")
+    print("[NIGHTMARE]: Totes les sortides de l'edifici han estat segellades.")
 =======
-protocol_seguretat = "SANCTUARY"
+    print("[SANCTUARY]: Activant protocol de tancament d'emergència...")
+    print("[SANCTUARY]: Totes les sortides de l'edifici han estat segellades.")
 >>>>>>> feature-sanctuary
 ```
 
 Es decideix conservar el protocol de protecció `SANCTUARY` per garantir la seguretat del servidor. S'eliminen manualment les marques del conflicte i es deixa la línia definitiva:
 ```python
-protocol_seguretat = "SANCTUARY"
+    print("[SANCTUARY]: Activant protocol de tancament d'emergència...")
+    print("[SANCTUARY]: Totes les sortides de l'edifici han estat segellades.")
 ```
 
 Finalment, es registra la resolució del conflicte i es comprova l'historial complet de les fusions.

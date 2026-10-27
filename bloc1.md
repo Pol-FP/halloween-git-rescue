@@ -7,8 +7,8 @@ git init
 ### Acció 3.2: Configuració d'identitat
 Es configuren les credencials locals de Git per identificar l'enginyer/a forense que realitza les accions.
 ```bash
-git config user.name "Pol.C-FP"
-git config user.email "alu.pol.castano@mataro.epiaedu.cat"
+git config --global user.name "Pol.C-FP"
+git config --global user.email "alu.pol.castano@mataro.epiaedu.cat"
 ```
 
 ### Acció 3.3: Generació del fitxer base (1r Commit)
